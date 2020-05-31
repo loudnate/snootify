@@ -48,7 +48,7 @@ refresh_token = REFRESH_TOKEN_EXAMPLE
 
 ### Python package
 
-Snootify isn't up on Pypi at this time. You can use `easy_install` to add the CLI to your python site-packages and bin directories.
+Snootify isn't up on Pypi at this time. You can use `easy_install` to install the sources to your python `site-packages` and `bin` directories.
 
 ```sh
 $ python setup.py install
