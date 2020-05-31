@@ -22,7 +22,7 @@ password = <password>
 Note: you can run the `$ snoo` command once to generate `.snoo_config`
 '''
 
-requires = ['snoo', 'python-pushover', 'Arrow']
+requires = ['snoo', 'python-pushover']
 
 __version__ = 0.1
 
