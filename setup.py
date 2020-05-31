@@ -50,5 +50,8 @@ setup(
     packages=find_packages(exclude=['tests']),
     include_package_data=True,
     install_requires=requires,
-    test_suite="tests"
+    test_suite='tests',
+    entry_points = {
+       'console_scripts': ['snootify=snootify:run'],
+    },
 )
